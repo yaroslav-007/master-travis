@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-out=$(./master-script.sh)
+out=$(bash ./master-script.sh)
 
 # we should check out == hello
 if [ "${out}" == "hello" ];then
