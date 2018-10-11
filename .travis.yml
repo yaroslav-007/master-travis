@@ -4,3 +4,10 @@ sudo: required
 script:
 - bash ./test.sh
 
+deploy:
+  provider: releases
+  api_key: "GITHUB OAUTH TOKEN"
+  file: "master-script.sh"
+  skip_cleanup: true
+  on:
+    tags: true
