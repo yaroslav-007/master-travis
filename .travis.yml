@@ -10,4 +10,5 @@ deploy:
   file: master-script.sh
   on:
     repo: yaroslav-007/master-travis
-    branch: upload_file
+    branch: master
+    tags: true
