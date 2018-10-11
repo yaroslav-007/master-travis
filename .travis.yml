@@ -11,5 +11,4 @@ deploy:
   on:
     repo: yaroslav-007/master-travis
     branch: master
-   on:
     tags: true
